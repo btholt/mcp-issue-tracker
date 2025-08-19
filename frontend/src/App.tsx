@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider, ProtectedRoute } from "@/components/auth";
 import { ToastProvider } from "@/contexts/ToastContext";
 import Layout from "@/components/layout/Layout";
